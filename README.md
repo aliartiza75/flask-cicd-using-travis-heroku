@@ -85,12 +85,20 @@ pip3 install -r requirements.txt
 heroku create flask-cicd-using-travis-heroku
 ```
 
-6. Push your code to the repository:
+6. Heroku maintains the repository itself, to check it use the command given below:
+
+```bash
+cat .git/config
+
+# you can see that a remote orgin named heroku has been added
+```
+
+7. Push your code to the repository:
 ```bash
 git push heroku master
 ```
+Once the above command is executed successfully it will output the deployed application url.
 
-It will output the application url
 
 ### Testing
 
