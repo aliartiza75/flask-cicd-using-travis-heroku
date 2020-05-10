@@ -1,6 +1,6 @@
 # get-name API
 
-[![Build Status](https://travis-ci.org/Irtiza0121/get-name.svg?branch=master)](https://travis-ci.org/Irtiza0121/get-name)
+[![Build Status](https://travis-ci.com/aliartiza75/flask-cicd-using-travis-heroku.svg?branch=master)](https://travis-ci.com/aliartiza75/flask-cicd-using-travis-heroku)
 
 ## Overview
 
