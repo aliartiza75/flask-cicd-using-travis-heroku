@@ -1,0 +1,11 @@
+sudo: false
+language: python
+python:
+  - 3.8
+install: pip install -r requirements.txt
+
+
+script:
+  - python3 app.py &
+  - sleep 5
+  - python3 test_datetime_service.py
